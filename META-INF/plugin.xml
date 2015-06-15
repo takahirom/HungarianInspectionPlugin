@@ -1,20 +1,18 @@
 <idea-plugin version="2">
     <id>com.kogitune</id>
     <name>HungarianInspection</name>
-    <version>1.0</version>
-    <vendor email="takam.dev@gmail.com" url="http://www.yourcompany.com">YourCompany</vendor>
+    <version>1.0.0</version>
+    <vendor email="takam.dev@gmail.com" url="https://github.com/takahirom/HungarianInspection">takahirom</vendor>
 
     <description><![CDATA[
        This plugin provides inspection hungarian notation.
     ]]></description>
 
     <change-notes><![CDATA[
-      Add change notes here.<br>
-      <em>most HTML tags may be used</em>
+      1.0.0 first release<br>
     ]]>
     </change-notes>
 
-    <!-- please see https://confluence.jetbrains.com/display/IDEADEV/Build+Number+Ranges for description -->
     <idea-version since-build="131"/>
 
     <extensions defaultExtensionNs="com.intellij">
