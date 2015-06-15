@@ -49,7 +49,7 @@ public class HungarianFieldInspection extends BaseJavaLocalInspectionTool {
                 prefix = "s";
             }
             String newFiledName = prefix + fieldName.substring(0, 1).toUpperCase() + fieldName.substring(1, fieldName.length());
-            holder.registerProblem(field, "Not Hungary field name", new RenameElementFix(field, newFiledName));
+            holder.registerProblem(field, "Not hungary field name", new RenameElementFix(field, newFiledName));
         }
     }
 }
