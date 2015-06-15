@@ -24,6 +24,9 @@ public class ToggleHungarianEnable extends AnAction {
     }
 
     public static boolean isHangurianEnabled(Project project) {
+        if (project == null) {
+            return false;
+        }
         PropertiesComponent properties = PropertiesComponent.getInstance(project);
         return properties.getBoolean(IS_HUNGARIAN_ENABLED, true);
     }
