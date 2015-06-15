@@ -1,15 +1,15 @@
 <idea-plugin version="2">
     <id>com.kogitune</id>
     <name>HungarianInspection</name>
-    <version>1.0.0</version>
-    <vendor email="takam.dev@gmail.com" url="https://github.com/takahirom/HungarianInspection">takahirom</vendor>
+    <version>1.0.1</version>
+    <vendor email="takam.dev@gmail.com" url="https://github.com/takahirom/HungarianInspectionPlugin">takahirom</vendor>
 
     <description><![CDATA[
-       This plugin provides inspection hungarian notation.
+       This plugin provides hungarian notation inspection .
     ]]></description>
 
     <change-notes><![CDATA[
-      1.0.0 first release<br>
+      1.0.1 first release<br>
     ]]>
     </change-notes>
 
