@@ -1,7 +1,7 @@
 <idea-plugin version="2">
     <id>com.kogitune</id>
     <name>HungarianInspection</name>
-    <version>1.0.1</version>
+    <version>1.0.2</version>
     <vendor email="takam.dev@gmail.com" url="https://github.com/takahirom/HungarianInspectionPlugin">takahirom</vendor>
 
     <description><![CDATA[
@@ -9,11 +9,12 @@
     ]]></description>
 
     <change-notes><![CDATA[
+      1.0.2 Android Studio 2.0 Support(Experimental)
       1.0.1 first release<br>
     ]]>
     </change-notes>
 
-    <idea-version since-build="131"/>
+    <idea-version since-build="131.000"/>
 
     <extensions defaultExtensionNs="com.intellij">
         <localInspection enabledByDefault="true"
